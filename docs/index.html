@@ -3,8 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <title>Homepage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
 </head>
+<style>
+    .form {
+    position: relative;
+    margin-bottom: 50px;
+}
+    body{
+        padding-bottom: 100px;
+    }
+    
+</style>
 <body>
 
+<div class="container">
+    <nav class="navbar  sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">TechBistro</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="origins.html">Home</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav nav justify-content-end">
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="images/adult-beach-beard-736716.jpg" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text">Jamie Lannister.<br> Creator and editor in chief </p>
+        </div>
+    </div>
+    <h1 class="text-center">About me</h1>
+    <p class="lead text-dark"> Our story begins in 1995 - a story not so different from many other entrepreneurs and
+        dreamers. At the time,
+        finding great tasting, fresh roasted coffee was surprisingly elusive. So, Doug Zell and Emily Mange decided to
+        do something about it. They didn’t set out to change the world, just a small corner of it.
+        Relocating from San Francisco, they opened their own coffee bar and retail store in Chicago’s eclectic Lakeview
+        neighborhood. Roasting their coffee in-store, with equipment that was more antique than state-of-the-art, they
+        honed their craft, seeking nothing less than perfection in every aspect of the experience. Little did Doug and
+        Emily know that what started as a way to connect with people and the community in an intimate, personal way
+        would blossom into something that would help shape an entire industry
+    </p>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">SUBSCRIBE! </h1>
+            <p class="lead">Stay up to date on all you tech news.Just enter all the necessary info below.</p>
+        </div>
+    </div>
+
+
+    <form>
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">First Name</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Last Name</label>
+            <textarea class="form-control" id="exampleFormControlTextarea2" rows="1"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Hometown</label>
+            <textarea class="form-control" id="exampleFormControlTextarea3" rows="1"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Major</label>
+            <textarea class="form-control" id="exampleFormControlTextarea4" rows="1"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <button class="btn btn-primary" type="submit">SUBSCRIBE</button>
+    </form>
+
+</div>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 </html>
